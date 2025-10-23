@@ -43,12 +43,13 @@ For each statement, the following data points are extracted:
 
 ### 1️⃣ Clone the Repository
 git clone https://github.com/kaivuxu/sure.financial_task.git
+
 cd credit-card-parser
 
 2️⃣ Create a Virtual Environment 
 python -m venv venv
 
-# Activate it
+**Activate it**
 source venv/bin/activate      # Mac/Linux
 venv\Scripts\activate         # Windows
 
