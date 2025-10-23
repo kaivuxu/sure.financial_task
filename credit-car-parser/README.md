@@ -38,41 +38,24 @@ For each statement, the following data points are extracted:
 
 > **Note:** For some corporate cards (like Kotak Corporate), the minimum due may not be present.
 
----
-
-## 📁 Project Structure
-
-credit-card-parser/
-├── app.py # Main Flask app
-├── parsers/
-│ ├── init.py
-│ ├── base_parser.py # Base parser class with shared logic
-│ ├── hdfc_parser.py
-│ ├── icici_parser.py
-│ ├── sbi_parser.py
-│ ├── axis_parser.py
-│ └── kotak_parser.py
-├── templates/
-│ └── index.html # Frontend UI
-├── uploads/ # Temporary upload folder (auto-created)
-├── requirements.txt
-└── README.md
-
-
-
----
 
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the Repository
 git clone https://github.com/kaivuxu/sure.financial_task.git
 cd credit-card-parser
+
 2️⃣ Create a Virtual Environment 
 python -m venv venv
+
 # Activate it
 source venv/bin/activate      # Mac/Linux
 venv\Scripts\activate         # Windows
+
+
 3️⃣ Install Dependencies
 pip install -r requirements.txt
+
+
 4️⃣ Run the Application
 python app.py
