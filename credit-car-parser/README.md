@@ -50,13 +50,16 @@ cd credit-card-parser
 python -m venv venv
 
 **Activate it**
+
+
 source venv/bin/activate      # Mac/Linux
+
 venv\Scripts\activate         # Windows
 
 
-3️⃣ Install Dependencies
+3️⃣ Install Dependencies :
 pip install -r requirements.txt
 
 
-4️⃣ Run the Application
+4️⃣ Run the Application :
 python app.py
